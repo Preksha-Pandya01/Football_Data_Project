@@ -27,7 +27,7 @@ The pipeline starts with **raw data ingestion**, applies **robust validation and
 - Design a **relational data model** capturing key football entities with proper PK–FK relationships
 - Implement **Raw → Intermediate → Final layered architecture**
 - Perform **data cleansing & standardization**
-- - Migrate PostgreSQL schemas to **Snowflake using SnowConvert**
+- Migrate PostgreSQL schemas to **Snowflake using SnowConvert**
 - Validate data using **YAML-driven rules with AWS Lambda**
 - Track historical changes using **dbt snapshots**
 - Build **business-ready KPIs and dashboards** in Power BI
