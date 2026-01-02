@@ -1,0 +1,21 @@
+table: player_market_value
+file_format: csv
+delimiter: ","
+
+columns: 
+  - name: player_id
+    type: integer
+    required: true
+    cross_check:
+      right_table: player_profiles
+      right_key: player_id
+
+  - name: date_unix
+    type: date
+    required: true
+    format: "%Y-%m-%d"
+
+  - name: value
+    type: integer
+    required: true
+    min: 0

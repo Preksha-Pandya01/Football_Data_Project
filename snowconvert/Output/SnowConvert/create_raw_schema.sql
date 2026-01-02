@@ -1,0 +1,1 @@
+﻿create schema raw_schema !!!RESOLVE EWI!!! /*** SSC-EWI-0073 - PENDING FUNCTIONAL EQUIVALENCE REVIEW FOR 'CreateSchema' NODE ***/!!!;

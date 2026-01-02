@@ -1,0 +1,41 @@
+table: player_injuries
+file_format: csv
+delimiter: ","
+
+columns:
+  - name: player_id
+    type: integer
+    required: true
+    cross_check:
+      right_table: player_profiles
+      right_key: player_id
+
+  - name: season_name
+    type: string
+    required: true
+
+  - name: injury_reason
+    type: string
+    required: true
+
+  - name: from_date
+    type: date
+    required: true
+    format: "%Y-%m-%d"
+
+  - name: end_date
+    type: date
+    format: "%Y-%m-%d"
+
+  - name: days_missed
+    type: integer
+    required: true
+    min: 1
+
+  - name: games_missed
+    type: integer
+    required: true
+    min: 0
+
+    
+  

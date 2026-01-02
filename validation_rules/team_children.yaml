@@ -1,0 +1,29 @@
+table: team_children
+file_format: csv
+delimiter: ","
+
+columns:
+  - name: player_team_id
+    type: integer
+    required: true
+    cross_check:
+      right_table: team_competition_seasons.
+      right_key: club_id
+
+  - name: player_team_name
+    type: string
+    required: true
+
+  - name: child_team_id
+    type: integer
+    required: true
+    unique: true
+    cross_check:
+      right_table: team_competition_seasons.
+      right_key: club_id
+
+  - name: child_team_name
+    type: string
+    required: true
+    
+  

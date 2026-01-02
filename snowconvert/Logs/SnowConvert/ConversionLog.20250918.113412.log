@@ -1,0 +1,189 @@
+[18-09-2025 11:34:12] Info: SourceLanguage set to PostgreSQL based on the appsettings configuration.
+[18-09-2025 11:34:33] Info: No path specified for loading additional transformation rules
+[18-09-2025 11:34:33] Info: Starting to analyze the input path 'C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project'...
+[18-09-2025 11:34:40] Info: EFProcess 638937920806207116 started
+[18-09-2025 11:34:40] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[18-09-2025 11:34:40] Debug: TaskParam ConversionBeginTask.Input = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project\input.wsp
+[18-09-2025 11:34:40] Debug: TaskParam workingSet = Value is not created.
+[18-09-2025 11:34:40] Debug: TaskParam ConversionBeginTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[18-09-2025 11:34:40] Debug: TaskParam ConversionBeginTask.Enabled = True
+[18-09-2025 11:34:40] Debug: TaskParam Repository = Value is not created.
+[18-09-2025 11:34:40] Debug: TaskParam RepositoryDirectory = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project_output\Conversion-9-18-2025T11 33\.mobilize\CommonEF
+[18-09-2025 11:34:41] Info: Found 31 Sql files with a total size of 28.66KB
+[18-09-2025 11:34:41] Info: Starting the parsing process of 31 files with 28.66KB of code, this might take a while...
+[18-09-2025 11:34:41] Info: Step 1/8 - Loading Code: STARTED
+[18-09-2025 11:34:42] Error: There are 2 parsing errors in the file C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project\connecting_rds_to_s3.sql
+[18-09-2025 11:34:42] Error: connecting_rds_to_s3.sql(1, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '1' COLUMN '1' OF THE SOURCE CODE STARTING AT 'CREATE'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[18-09-2025 11:34:42] Error: connecting_rds_to_s3.sql(11, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '11' COLUMN '1' OF THE SOURCE CODE STARTING AT 'CREATE'. EXPECTED 'STATEMENT' GRAMMAR. LAST MATCHING TOKEN WAS ';' ON LINE '7' COLUMN '2'. FAILED TOKEN WAS 'CREATE' ON LINE '11' COLUMN '1'. ** 
+[18-09-2025 11:34:42] Info: Step 1/8 - Loading Code: COMPLETED
+[18-09-2025 11:34:42] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[18-09-2025 11:34:42] Debug: TaskParam SymbolTableFillingTask.Input = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project\input.wsp
+[18-09-2025 11:34:42] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[18-09-2025 11:34:42] Debug: TaskParam SymbolTableFillingTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[18-09-2025 11:34:42] Debug: TaskParam SymbolTableFillingTask.Enabled = True
+[18-09-2025 11:34:42] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[18-09-2025 11:34:42] Debug: TaskParam RepositoryDirectory = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project_output\Conversion-9-18-2025T11 33\.mobilize\CommonEF
+[18-09-2025 11:34:43] Info: Step 2/8 - Semantic Analysis of Tables: STARTED
+[18-09-2025 11:34:44] Info: Step 2/8 - Semantic Analysis of Tables: COMPLETED
+[18-09-2025 11:34:44] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[18-09-2025 11:34:44] Debug: TaskParam SymbolTableFillingSecondTask.Input = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project\input.wsp
+[18-09-2025 11:34:44] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[18-09-2025 11:34:44] Debug: TaskParam SymbolTableFillingSecondTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[18-09-2025 11:34:44] Debug: TaskParam SymbolTableFillingSecondTask.Enabled = True
+[18-09-2025 11:34:44] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[18-09-2025 11:34:44] Debug: TaskParam RepositoryDirectory = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project_output\Conversion-9-18-2025T11 33\.mobilize\CommonEF
+[18-09-2025 11:34:44] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STARTED
+[18-09-2025 11:34:45] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STORING
+[18-09-2025 11:34:50] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STORED
+[18-09-2025 11:34:50] Info: Step 3/8 - Semantic Analysis of Top Level Objects: COMPLETED
+[18-09-2025 11:34:50] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[18-09-2025 11:34:50] Debug: TaskParam PreProcessTask.Input = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project\input.wsp
+[18-09-2025 11:34:50] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[18-09-2025 11:34:50] Debug: TaskParam PreProcessTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[18-09-2025 11:34:50] Debug: TaskParam PreProcessTask.Enabled = True
+[18-09-2025 11:34:50] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[18-09-2025 11:34:50] Debug: TaskParam RepositoryDirectory = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project_output\Conversion-9-18-2025T11 33\.mobilize\CommonEF
+[18-09-2025 11:34:50] Info: Step 4/8 - Pre-Processing: STARTED
+[18-09-2025 11:34:50] Info: Step 4/8 - Pre-Processing: COMPLETED
+[18-09-2025 11:34:50] Debug: TaskParam Lineage.Input = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project\input.wsp
+[18-09-2025 11:34:50] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[18-09-2025 11:34:50] Debug: TaskParam Lineage.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[18-09-2025 11:34:50] Debug: TaskParam Lineage.Enabled = True
+[18-09-2025 11:34:50] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[18-09-2025 11:34:50] Debug: TaskParam RepositoryDirectory = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project_output\Conversion-9-18-2025T11 33\.mobilize\CommonEF
+[18-09-2025 11:34:50] Info: Step 5/8 - Data lineage analysis: STARTED
+[18-09-2025 11:34:51] Info: Step 5/8 - Data lineage analysis: COMPLETED
+[18-09-2025 11:34:51] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[18-09-2025 11:34:51] Debug: TaskParam PreConversionAssessmentTask.Input = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project\input.wsp
+[18-09-2025 11:34:51] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[18-09-2025 11:34:51] Debug: TaskParam PreConversionAssessmentTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[18-09-2025 11:34:51] Debug: TaskParam PreConversionAssessmentTask.Enabled = True
+[18-09-2025 11:34:51] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[18-09-2025 11:34:51] Debug: TaskParam RepositoryDirectory = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project_output\Conversion-9-18-2025T11 33\.mobilize\CommonEF
+[18-09-2025 11:34:51] Info: Step 6/8 - Pre-Conversion Assessment: STARTED
+[18-09-2025 11:34:52] Info: Step 6/8 - Pre-Conversion Assessment: COMPLETED
+[18-09-2025 11:34:52] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[18-09-2025 11:34:52] Debug: TaskParam TransformationsTask.Input = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project\input.wsp
+[18-09-2025 11:34:52] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[18-09-2025 11:34:52] Debug: TaskParam TransformationsTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[18-09-2025 11:34:52] Debug: TaskParam TransformationsTask.Enabled = True
+[18-09-2025 11:34:52] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[18-09-2025 11:34:52] Debug: TaskParam RepositoryDirectory = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project_output\Conversion-9-18-2025T11 33\.mobilize\CommonEF
+[18-09-2025 11:34:52] Info: Step 7/8 - Conversion Execution: STARTED
+[18-09-2025 11:34:52] Info: Start transforming file int_schema_player_profile.sql
+[18-09-2025 11:34:52] Info: Start transforming file raw_schema_player_profile.sql
+[18-09-2025 11:34:52] Info: Start transforming file raw_schema_player_injuries.sql
+[18-09-2025 11:34:52] Info: Start transforming file raw_schema_children_team.sql
+[18-09-2025 11:34:52] Info: Start transforming file raw_schema_player_national_performance.sql
+[18-09-2025 11:34:52] Info: Start transforming file int_schema_team_competition_seasons.sql
+[18-09-2025 11:34:52] Info: Start transforming file int_schema_int_transfer_history.sql
+[18-09-2025 11:34:52] Info: Start transforming file int_schema_int_player_injuries.sql
+[18-09-2025 11:34:52] Info: There are one or more nodes depending on intermediate_schema.int_transfer_history that do not share file with it
+[18-09-2025 11:34:52] Info: There are one or more nodes depending on intermediate_schema.int_player_injuries that do not share file with it
+[18-09-2025 11:34:52] Info: Transformed file raw_schema_player_profile.sql
+[18-09-2025 11:34:52] Info: Transformed file raw_schema_player_injuries.sql
+[18-09-2025 11:34:52] Info: Transformed file int_schema_team_competition_seasons.sql
+[18-09-2025 11:34:52] Info: Transformed file int_schema_player_profile.sql
+[18-09-2025 11:34:52] Info: Transformed file raw_schema_children_team.sql
+[18-09-2025 11:34:52] Info: Transformed file raw_schema_player_national_performance.sql
+[18-09-2025 11:34:52] Info: Transformed file int_schema_int_player_injuries.sql
+[18-09-2025 11:34:52] Info: Transformed file int_schema_int_transfer_history.sql
+[18-09-2025 11:34:52] Info: Start transforming file int_schema_player_performances.sql
+[18-09-2025 11:34:52] Info: Start transforming file create_intermediate_schema.sql
+[18-09-2025 11:34:52] Info: Start transforming file connecting_rds_to_s3.sql
+[18-09-2025 11:34:52] Info: Start transforming file int_player_market_value.sql
+[18-09-2025 11:34:52] Info: Start transforming file final_schema_vw_highest_transfer_per_season.sql
+[18-09-2025 11:34:52] Info: Start transforming file int_schema_children_team.sql
+[18-09-2025 11:34:52] Info: Transformed file create_intermediate_schema.sql
+[18-09-2025 11:34:52] Info: Start transforming file Create_Football_db.sql
+[18-09-2025 11:34:52] Info: There are one or more nodes depending on intermediate_schema.int_children_team that do not share file with it
+[18-09-2025 11:34:52] Info: Start transforming file create_raw_schema.sql
+[18-09-2025 11:34:52] Info: Transformed file int_player_market_value.sql
+[18-09-2025 11:34:52] Info: Transformed file create_raw_schema.sql
+[18-09-2025 11:34:52] Info: Transformed file int_schema_children_team.sql
+[18-09-2025 11:34:52] Info: Transformed file Create_Football_db.sql
+[18-09-2025 11:34:52] Info: Start transforming file raw_schema_transfer_history.sql
+[18-09-2025 11:34:52] Info: Start transforming file demo.sql
+[18-09-2025 11:34:52] Info: Transformed file final_schema_vw_highest_transfer_per_season.sql
+[18-09-2025 11:34:52] Info: Start transforming file final_schema_vw_top_goalers_per_season_per_competition.sql
+[18-09-2025 11:34:52] Info: Start transforming file raw_schema_player_market_value.sql
+[18-09-2025 11:34:52] Info: Start transforming file final_schema_vw_injury_burden_per_team_per_season.sql
+[18-09-2025 11:34:52] Info: Transformed file demo.sql
+[18-09-2025 11:34:52] Info: Transformed file connecting_rds_to_s3.sql
+[18-09-2025 11:34:52] Info: Transformed file raw_schema_transfer_history.sql
+[18-09-2025 11:34:52] Info: Transformed file raw_schema_player_market_value.sql
+[18-09-2025 11:34:52] Info: Start transforming file raw_schema_team_details.sql
+[18-09-2025 11:34:52] Info: Start transforming file create_final_schema.sql
+[18-09-2025 11:34:52] Info: Start transforming file final_schema_vw_injury_type_trends.sql
+[18-09-2025 11:34:52] Info: Start transforming file int_schema_int_player_teammates_played_with.sql
+[18-09-2025 11:34:52] Info: Transformed file create_final_schema.sql
+[18-09-2025 11:34:52] Info: Transformed file final_schema_vw_top_goalers_per_season_per_competition.sql
+[18-09-2025 11:34:52] Info: Start transforming file raw_schema_player_teammates_played_with.sql
+[18-09-2025 11:34:52] Info: Transformed file final_schema_vw_injury_type_trends.sql
+[18-09-2025 11:34:52] Info: Start transforming file raw_schema_player_performance.sql
+[18-09-2025 11:34:52] Info: There are one or more nodes depending on intermediate_schema.int_player_teammates_played_with that do not share file with it
+[18-09-2025 11:34:52] Info: Transformed file final_schema_vw_injury_burden_per_team_per_season.sql
+[18-09-2025 11:34:52] Info: Transformed file raw_schema_player_teammates_played_with.sql
+[18-09-2025 11:34:52] Info: Start transforming file raw_schema_team_competitions_seasons.sql
+[18-09-2025 11:34:52] Info: Start transforming file final_schema_vw_top_assists_per_season.sql
+[18-09-2025 11:34:52] Info: Transformed file raw_schema_player_performance.sql
+[18-09-2025 11:34:52] Info: Transformed file int_schema_int_player_teammates_played_with.sql
+[18-09-2025 11:34:52] Info: Start transforming file final_schema_player_market_value_growth_rate.sql
+[18-09-2025 11:34:52] Info: Transformed file raw_schema_team_competitions_seasons.sql
+[18-09-2025 11:34:52] Info: Start transforming file int_schema_player_national_performance.sql
+[18-09-2025 11:34:52] Info: There are one or more nodes depending on intermediate_schema.int_player_national_performance that do not share file with it
+[18-09-2025 11:34:52] Info: Transformed file final_schema_vw_top_assists_per_season.sql
+[18-09-2025 11:34:52] Info: Transformed file int_schema_player_performances.sql
+[18-09-2025 11:34:52] Info: Transformed file final_schema_player_market_value_growth_rate.sql
+[18-09-2025 11:34:52] Info: Transformed file int_schema_player_national_performance.sql
+[18-09-2025 11:34:52] Info: Transformed file raw_schema_team_details.sql
+[18-09-2025 11:34:53] Info: Step 7/8 - Conversion Execution: COMPLETED
+[18-09-2025 11:34:53] Debug: TaskParam SnowScript = False
+[18-09-2025 11:34:53] Debug: TaskParam reportPath = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project_output\Conversion-9-18-2025T11 33\Reports\SnowConvert
+[18-09-2025 11:34:53] Debug: TaskParam totalProcessedLOC = 0
+[18-09-2025 11:34:53] Debug: TaskParam inputPath = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project
+[18-09-2025 11:34:53] Debug: TaskParam outputPath = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project_output\Conversion-9-18-2025T11 33\Output\SnowConvert
+[18-09-2025 11:34:53] Debug: TaskParam SessionTimestamp = 20250918.113412
+[18-09-2025 11:34:53] Debug: TaskParam snowConfiguration = Mobilize.Snow.Configuration.SnowConfiguration
+[18-09-2025 11:34:53] Debug: TaskParam DashboardMode = False
+[18-09-2025 11:34:53] Debug: TaskParam writeResultsProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[18-09-2025 11:34:53] Debug: TaskParam snowExecutionResult = Mobilize.Snow.Assessment.SnowExecutionResult
+[18-09-2025 11:34:53] Debug: TaskParam ConversionEndTask.Input = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project\input.wsp
+[18-09-2025 11:34:53] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[18-09-2025 11:34:53] Debug: TaskParam ConversionEndTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[18-09-2025 11:34:53] Debug: TaskParam ConversionEndTask.Enabled = True
+[18-09-2025 11:34:53] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[18-09-2025 11:34:53] Debug: TaskParam RepositoryDirectory = C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project_output\Conversion-9-18-2025T11 33\.mobilize\CommonEF
+[18-09-2025 11:34:53] Info: EFProcess 638937920806207116 ended. Execution time: 00:00:12.1307002
+[18-09-2025 11:34:53] Info: STARTED Step 8/8: Stats and Reports
+[18-09-2025 11:34:53] Info: Writing the conversion summary report
+[18-09-2025 11:34:54] Info: Writing the Assessment report
+[18-09-2025 11:34:54] Info: Writing the Scope Validations report
+[18-09-2025 11:34:54] Info: Writing the raw assessment data report
+[18-09-2025 11:34:54] Info: Writing the Elements report
+[18-09-2025 11:34:54] Info: Writing the ETL and BI repointing report
+[18-09-2025 11:34:54] Info: Writing the Issues report
+[18-09-2025 11:34:54] Info: Writing the missing objects report
+[18-09-2025 11:34:54] Info: Writing the object references report
+[18-09-2025 11:34:54] Info: Writing the top level code unit report
+[18-09-2025 11:34:54] Info: Writing the Functions Usage Report report
+[18-09-2025 11:34:54] Info: Uploading metadata
+[18-09-2025 11:34:54] Info: COMPLETED Step 8/8: Stats and Reports
+[18-09-2025 11:34:54] Info: 
+==============================================================================
+SnowConvert assessment execution summary
+ - Files: 31
+ - Files Not Generated: 0
+ - Total lines of code: 866
+ - Automatically converted: 88.57%
+ - Conversion time: 00:00:12
+ - Conversion speed: 69 lines of code per second
+See the report files for more details about the conversion status.
+==============================================================================
+
+[18-09-2025 11:34:54] Info: 
+==============================================================================
+SnowConvert Tool.
+Copyright © 2023-2025 Snowflake Inc. All rights reserved.
+==============================================================================
+

@@ -1,0 +1,57 @@
+table: transfer_history
+file_format: csv
+delimiter: ","
+
+columns:
+  - name: player_id
+    type: integer
+    required: true
+    cross_check:
+      right_table: player_profiles
+      right_key: player_id
+
+  - name: season_name
+    type: string
+    required: true
+    
+  - name: transfer_date
+    type: date
+    format: "%Y-%m-%d"
+    required: true
+
+  - name: from_team_id
+    type: integer
+    required: true
+    cross_check:
+      right_table: team_competition_seasons.
+      right_key: club_id
+
+  - name: from_team_name
+    type: string
+    required: true
+
+  - name: to_team_id
+    type: integer
+    required: true
+    cross_check:
+      right_table: team_competition_seasons.
+      right_key: club_id
+
+  - name: to_team_name
+    type: string
+    required: true
+
+  - name: tranfer_type
+    type: string
+    required: true
+    allowed: ['Loan','Return from loan','Transfer']
+
+  - name: value_at_transfer
+    type: integer
+    required: true
+    min: 0
+
+  - name: transfer_fee
+    type: integer
+    required: true
+    min: 0

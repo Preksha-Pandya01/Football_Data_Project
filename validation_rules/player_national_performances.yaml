@@ -1,0 +1,32 @@
+table: player_national_performances
+file_format: csv
+delimiter: ","
+
+columns:
+  - name: player_id
+    type: integer
+    required: true
+    cross_check:
+      right_table: player_profiles
+      right_key: player_id
+
+  - name: team_id
+    type: integer
+    required: true
+    cross_check:
+      right_table: team_competition_seasons
+      right_key: club_id
+
+  - name: first_game_date
+    type: date
+    format: "%Y-%m-%d"
+
+  - name: matches
+    type: integer
+    required: true
+    min: 0
+
+  - name: goals
+    type: integer
+    required: true
+    min: 0

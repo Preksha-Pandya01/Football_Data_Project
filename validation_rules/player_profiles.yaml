@@ -1,0 +1,60 @@
+table: player_profiles
+file_format: csv
+delimiter: ","
+
+columns:
+  - name: player_id
+    type: integer
+    required: true
+    unique: true
+    
+  - name: player_name
+    type: string
+    required: true
+
+  - name: date_of_birth
+    type: date
+    required: true
+    format: "%Y-%m-%d"
+
+  - name: place_of_birth
+    type: string
+    required: true
+
+  - name: country_of_birth
+    type: string
+    required: true
+
+  - name: height
+    type: integer
+    required: true
+
+  - name: main_position
+    type: string
+    required: true
+
+  - name: foot
+    type: string
+    required: true
+    allowed: ["left", "right", "both"]
+
+  - name: current_club_id
+    type: string
+    required: true
+    cross_check:
+      right_table: team_competition_seasons.
+      right_key: club_id
+
+  - name: joined
+    type: date
+    required: true
+    format: "%Y-%m-%d"
+
+  - name: contract_expires
+    type: date
+    format: "%Y-%m-%d"
+
+  
+
+  
+

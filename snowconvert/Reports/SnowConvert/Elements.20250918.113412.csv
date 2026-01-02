@@ -1,0 +1,72 @@
+SessionID,Category,Grammar Element,File Type,Total Count,Not Converted Count (Self),Source Language
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,VALUES,SQL,14,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DML,CALL,SQL,9,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,AWS_COMMONS.CREATE_AWS_CREDENTIALS,SQL,1,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,DISTINCT,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL,CREATE SCHEMA,SQL,3,3,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL,CREATE DATABASE,SQL,1,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL Content,AS query_expr,SQL,6,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Statement - Control of Flow,BEGIN...END,SQL,9,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL,CREATE TABLE,SQL,20,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Operator,IN,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Operator,=,SQL,18,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,ON,SQL,6,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Operator,*,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,CURRENT_DATE,SQL,4,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,ROUND,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,EXTRACT,SQL,10,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,AWS_S3.TABLE_IMPORT_FROM_S3,SQL,11,11,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,REPLACE,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,WHERE,SQL,19,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,COUNT,SQL,4,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Data Type,SERIAL,SQL,4,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,WITH(DELETE),SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL,DROP TABLE,SQL,3,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,ROW_NUMBER,SQL,2,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,JOIN,SQL,6,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Operator,IS NULL / IS NOT NULL,SQL,24,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,DESC,SQL,7,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Operator,FIELD ACCESS,SQL,90,13,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Data Type,NUMERIC,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,NULL,SQL,3,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,GROUP BY,SQL,6,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Operator,/,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Set Operator,EXCEPT,SQL,14,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DML,TRUNCATE TABLE,SQL,5,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,MAX,SQL,8,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Operator,-,SQL,3,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,PARTITION BY,SQL,9,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,SPLIT_PART,SQL,3,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL,ALTER TABLE table_constraint,SQL,3,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Data Type,FLOAT,SQL,16,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Data Type,DATE,SQL,21,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,SELECT,SQL,61,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL Content,LANGUAGE,SQL,9,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL,CREATE VIEW,SQL,6,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL Content,OR REPLACE,SQL,2,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DML,INSERT,SQL,14,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Data Type,TEXT,SQL,79,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Operator,>,SQL,5,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,LAG,SQL,5,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DML,DELETE,SQL,10,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Operator,OR,SQL,2,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Data Type,TIMESTAMP,SQL,3,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL Content,PRIMARY KEY COLUMN,SQL,6,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Data Type,INTEGER,SQL,78,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,FROM,SQL,58,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DML,INTO,SQL,14,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,COALESCE,SQL,4,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,RANK,SQL,2,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,ASC,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL,CREATE PROCEDURE,SQL,9,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,SUM,SQL,7,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Data Type,BOOL,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,TO_DATE,SQL,2,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL Content,DEFAULT COLUMN,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Functions & Expressions,ANON.INIT,SQL,1,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,THEN,SQL,5,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,DDL Content,DEFAULT,SQL,1,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,ORDER BY,SQL,13,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Operator,AND,SQL,16,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Query,OVER,SQL,9,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,Statement - Control of Flow,SEARCHED CASE EXPRESSION,SQL,4,0,PostgreSQL

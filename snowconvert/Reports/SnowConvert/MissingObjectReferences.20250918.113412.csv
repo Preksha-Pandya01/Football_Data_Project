@@ -1,0 +1,14 @@
+PartitionKey,FileName,Caller_CodeUnit,Caller_CodeUnit_Database,Caller_CodeUnit_Schema,Caller_CodeUnit_Name,Caller_CodeUnit_FullName,Referenced_Element_Database,Referenced_Element_Schema,Referenced_Element_Name,Referenced_Element_FullName,Line,Relation_Type
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,connecting_rds_to_s3.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_commons,create_aws_credentials,aws_commons.create_aws_credentials,3,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,connecting_rds_to_s3.sql,SELECT,N/A,N/A,N/A,N/A,N/A,anon,init,anon.init,12,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,demo.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,1,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,raw_schema_children_team.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,10,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,raw_schema_player_injuries.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,11,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,raw_schema_player_market_value.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,10,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,raw_schema_player_national_performance.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,12,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,raw_schema_player_performance.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,27,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,raw_schema_player_profile.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,38,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,raw_schema_player_teammates_played_with.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,17,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,raw_schema_team_competitions_seasons.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,12,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,raw_schema_team_details.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,16,SELECT - COLUMN
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,raw_schema_transfer_history.sql,SELECT,N/A,N/A,N/A,N/A,N/A,aws_s3,table_import_from_s3,aws_s3.table_import_from_s3,14,SELECT - COLUMN

@@ -1,0 +1,387 @@
+FileId,Keyword,Count
+\connecting_rds_to_s3.sql,cascade,2
+\connecting_rds_to_s3.sql,create extension if not exists,1
+\connecting_rds_to_s3.sql,create extension,1
+\connecting_rds_to_s3.sql,select,2
+\create_final_schema.sql,create schema,1
+\Create_Football_db.sql,create database,1
+\create_intermediate_schema.sql,create schema,1
+\create_raw_schema.sql,create schema,1
+\demo.sql,create table,1
+\demo.sql,date,1
+\demo.sql,drop table,1
+\demo.sql,float,1
+\demo.sql,select,1
+\demo.sql,serial,1
+\demo.sql,value,1
+\final_schema_player_market_value_growth_rate.sql,=,2
+\final_schema_player_market_value_growth_rate.sql,as,5
+\final_schema_player_market_value_growth_rate.sql,case,1
+\final_schema_player_market_value_growth_rate.sql,create view,1
+\final_schema_player_market_value_growth_rate.sql,else,1
+\final_schema_player_market_value_growth_rate.sql,end,1
+\final_schema_player_market_value_growth_rate.sql,extract,6
+\final_schema_player_market_value_growth_rate.sql,float,4
+\final_schema_player_market_value_growth_rate.sql,from,8
+\final_schema_player_market_value_growth_rate.sql,is null,1
+\final_schema_player_market_value_growth_rate.sql,join,1
+\final_schema_player_market_value_growth_rate.sql,lag,5
+\final_schema_player_market_value_growth_rate.sql,null,2
+\final_schema_player_market_value_growth_rate.sql,numeric,1
+\final_schema_player_market_value_growth_rate.sql,on,1
+\final_schema_player_market_value_growth_rate.sql,order by,5
+\final_schema_player_market_value_growth_rate.sql,over,5
+\final_schema_player_market_value_growth_rate.sql,partition by,5
+\final_schema_player_market_value_growth_rate.sql,round,1
+\final_schema_player_market_value_growth_rate.sql,select,2
+\final_schema_player_market_value_growth_rate.sql,then,2
+\final_schema_player_market_value_growth_rate.sql,value,8
+\final_schema_player_market_value_growth_rate.sql,when,2
+\final_schema_player_market_value_growth_rate.sql,year,6
+\final_schema_player_market_value_growth_rate.sql,*,1
+\final_schema_player_market_value_growth_rate.sql,-,1
+\final_schema_player_market_value_growth_rate.sql,/,1
+\final_schema_vw_highest_transfer_per_season.sql,=,2
+\final_schema_vw_highest_transfer_per_season.sql,as,4
+\final_schema_vw_highest_transfer_per_season.sql,create view,1
+\final_schema_vw_highest_transfer_per_season.sql,desc,1
+\final_schema_vw_highest_transfer_per_season.sql,from,2
+\final_schema_vw_highest_transfer_per_season.sql,group by,1
+\final_schema_vw_highest_transfer_per_season.sql,join,1
+\final_schema_vw_highest_transfer_per_season.sql,max,3
+\final_schema_vw_highest_transfer_per_season.sql,on,1
+\final_schema_vw_highest_transfer_per_season.sql,order by,1
+\final_schema_vw_highest_transfer_per_season.sql,over,1
+\final_schema_vw_highest_transfer_per_season.sql,partition by,1
+\final_schema_vw_highest_transfer_per_season.sql,rank,2
+\final_schema_vw_highest_transfer_per_season.sql,row_number,1
+\final_schema_vw_highest_transfer_per_season.sql,select,2
+\final_schema_vw_highest_transfer_per_season.sql,where,1
+\final_schema_vw_injury_burden_per_team_per_season.sql,=,2
+\final_schema_vw_injury_burden_per_team_per_season.sql,as,5
+\final_schema_vw_injury_burden_per_team_per_season.sql,count,1
+\final_schema_vw_injury_burden_per_team_per_season.sql,create view,1
+\final_schema_vw_injury_burden_per_team_per_season.sql,distinct,1
+\final_schema_vw_injury_burden_per_team_per_season.sql,from,3
+\final_schema_vw_injury_burden_per_team_per_season.sql,group by,1
+\final_schema_vw_injury_burden_per_team_per_season.sql,join,2
+\final_schema_vw_injury_burden_per_team_per_season.sql,max,1
+\final_schema_vw_injury_burden_per_team_per_season.sql,on,2
+\final_schema_vw_injury_burden_per_team_per_season.sql,pi,7
+\final_schema_vw_injury_burden_per_team_per_season.sql,select,3
+\final_schema_vw_injury_burden_per_team_per_season.sql,sum,2
+\final_schema_vw_injury_burden_per_team_per_season.sql,*,2
+\final_schema_vw_injury_type_trends.sql,as,3
+\final_schema_vw_injury_type_trends.sql,asc,1
+\final_schema_vw_injury_type_trends.sql,count,1
+\final_schema_vw_injury_type_trends.sql,create view,1
+\final_schema_vw_injury_type_trends.sql,desc,1
+\final_schema_vw_injury_type_trends.sql,from,1
+\final_schema_vw_injury_type_trends.sql,group by,1
+\final_schema_vw_injury_type_trends.sql,order by,1
+\final_schema_vw_injury_type_trends.sql,pi,6
+\final_schema_vw_injury_type_trends.sql,select,1
+\final_schema_vw_injury_type_trends.sql,sum,1
+\final_schema_vw_injury_type_trends.sql,*,1
+\final_schema_vw_top_assists_per_season.sql,=,3
+\final_schema_vw_top_assists_per_season.sql,as,5
+\final_schema_vw_top_assists_per_season.sql,create view,1
+\final_schema_vw_top_assists_per_season.sql,desc,2
+\final_schema_vw_top_assists_per_season.sql,from,3
+\final_schema_vw_top_assists_per_season.sql,group by,1
+\final_schema_vw_top_assists_per_season.sql,join,1
+\final_schema_vw_top_assists_per_season.sql,max,2
+\final_schema_vw_top_assists_per_season.sql,on,1
+\final_schema_vw_top_assists_per_season.sql,order by,2
+\final_schema_vw_top_assists_per_season.sql,over,1
+\final_schema_vw_top_assists_per_season.sql,partition by,1
+\final_schema_vw_top_assists_per_season.sql,rank,3
+\final_schema_vw_top_assists_per_season.sql,select,3
+\final_schema_vw_top_assists_per_season.sql,sum,2
+\final_schema_vw_top_assists_per_season.sql,where,2
+\final_schema_vw_top_assists_per_season.sql,*,1
+\final_schema_vw_top_goalers_per_season_per_competition.sql,=,2
+\final_schema_vw_top_goalers_per_season_per_competition.sql,as,5
+\final_schema_vw_top_goalers_per_season_per_competition.sql,create or replace view,1
+\final_schema_vw_top_goalers_per_season_per_competition.sql,desc,2
+\final_schema_vw_top_goalers_per_season_per_competition.sql,from,2
+\final_schema_vw_top_goalers_per_season_per_competition.sql,group by,1
+\final_schema_vw_top_goalers_per_season_per_competition.sql,join,1
+\final_schema_vw_top_goalers_per_season_per_competition.sql,max,2
+\final_schema_vw_top_goalers_per_season_per_competition.sql,on,1
+\final_schema_vw_top_goalers_per_season_per_competition.sql,order by,2
+\final_schema_vw_top_goalers_per_season_per_competition.sql,over,1
+\final_schema_vw_top_goalers_per_season_per_competition.sql,partition by,1
+\final_schema_vw_top_goalers_per_season_per_competition.sql,rank,1
+\final_schema_vw_top_goalers_per_season_per_competition.sql,select,2
+\final_schema_vw_top_goalers_per_season_per_competition.sql,sum,2
+\final_schema_vw_top_goalers_per_season_per_competition.sql,where,1
+\int_player_market_value.sql,as,1
+\int_player_market_value.sql,begin,1
+\int_player_market_value.sql,call,1
+\int_player_market_value.sql,create table,1
+\int_player_market_value.sql,create procedure,1
+\int_player_market_value.sql,date,1
+\int_player_market_value.sql,end,1
+\int_player_market_value.sql,from,2
+\int_player_market_value.sql,insert,1
+\int_player_market_value.sql,integer,2
+\int_player_market_value.sql,into,1
+\int_player_market_value.sql,language,1
+\int_player_market_value.sql,select,2
+\int_player_market_value.sql,value,2
+\int_player_market_value.sql,*,1
+\int_schema_children_team.sql,as,1
+\int_schema_children_team.sql,begin,1
+\int_schema_children_team.sql,call,1
+\int_schema_children_team.sql,create table,1
+\int_schema_children_team.sql,create procedure,1
+\int_schema_children_team.sql,end,1
+\int_schema_children_team.sql,from,3
+\int_schema_children_team.sql,insert,2
+\int_schema_children_team.sql,integer,2
+\int_schema_children_team.sql,into,2
+\int_schema_children_team.sql,language,1
+\int_schema_children_team.sql,select,3
+\int_schema_children_team.sql,text,2
+\int_schema_children_team.sql,truncate,1
+\int_schema_children_team.sql,*,1
+\int_schema_int_player_injuries.sql,=,2
+\int_schema_int_player_injuries.sql,and,12
+\int_schema_int_player_injuries.sql,as,1
+\int_schema_int_player_injuries.sql,begin,1
+\int_schema_int_player_injuries.sql,call,1
+\int_schema_int_player_injuries.sql,create table,1
+\int_schema_int_player_injuries.sql,create procedure,1
+\int_schema_int_player_injuries.sql,date,2
+\int_schema_int_player_injuries.sql,delete,6
+\int_schema_int_player_injuries.sql,end,1
+\int_schema_int_player_injuries.sql,from,9
+\int_schema_int_player_injuries.sql,insert,2
+\int_schema_int_player_injuries.sql,integer,3
+\int_schema_int_player_injuries.sql,into,2
+\int_schema_int_player_injuries.sql,is null,16
+\int_schema_int_player_injuries.sql,language,1
+\int_schema_int_player_injuries.sql,or,2
+\int_schema_int_player_injuries.sql,select,3
+\int_schema_int_player_injuries.sql,text,2
+\int_schema_int_player_injuries.sql,truncate,1
+\int_schema_int_player_injuries.sql,where,6
+\int_schema_int_player_injuries.sql,*,1
+\int_schema_int_player_injuries.sql,>,2
+\int_schema_int_player_teammates_played_with.sql,=,2
+\int_schema_int_player_teammates_played_with.sql,and,2
+\int_schema_int_player_teammates_played_with.sql,as,1
+\int_schema_int_player_teammates_played_with.sql,begin,1
+\int_schema_int_player_teammates_played_with.sql,call,1
+\int_schema_int_player_teammates_played_with.sql,coalesce,4
+\int_schema_int_player_teammates_played_with.sql,create table,1
+\int_schema_int_player_teammates_played_with.sql,create procedure,1
+\int_schema_int_player_teammates_played_with.sql,current_date,2
+\int_schema_int_player_teammates_played_with.sql,end,1
+\int_schema_int_player_teammates_played_with.sql,float,3
+\int_schema_int_player_teammates_played_with.sql,from,4
+\int_schema_int_player_teammates_played_with.sql,insert,2
+\int_schema_int_player_teammates_played_with.sql,integer,6
+\int_schema_int_player_teammates_played_with.sql,into,2
+\int_schema_int_player_teammates_played_with.sql,is not null,2
+\int_schema_int_player_teammates_played_with.sql,language,1
+\int_schema_int_player_teammates_played_with.sql,primary key,1
+\int_schema_int_player_teammates_played_with.sql,select,4
+\int_schema_int_player_teammates_played_with.sql,text,1
+\int_schema_int_player_teammates_played_with.sql,truncate,1
+\int_schema_int_player_teammates_played_with.sql,where,2
+\int_schema_int_player_teammates_played_with.sql,*,2
+\int_schema_int_transfer_history.sql,as,1
+\int_schema_int_transfer_history.sql,begin,1
+\int_schema_int_transfer_history.sql,call,1
+\int_schema_int_transfer_history.sql,create table,1
+\int_schema_int_transfer_history.sql,create procedure,1
+\int_schema_int_transfer_history.sql,date,1
+\int_schema_int_transfer_history.sql,drop table,1
+\int_schema_int_transfer_history.sql,end,1
+\int_schema_int_transfer_history.sql,from,2
+\int_schema_int_transfer_history.sql,insert,2
+\int_schema_int_transfer_history.sql,integer,5
+\int_schema_int_transfer_history.sql,into,2
+\int_schema_int_transfer_history.sql,language,1
+\int_schema_int_transfer_history.sql,select,2
+\int_schema_int_transfer_history.sql,text,4
+\int_schema_int_transfer_history.sql,truncate,1
+\int_schema_player_national_performance.sql,=,1
+\int_schema_player_national_performance.sql,and,2
+\int_schema_player_national_performance.sql,as,3
+\int_schema_player_national_performance.sql,begin,1
+\int_schema_player_national_performance.sql,call,1
+\int_schema_player_national_performance.sql,create table,1
+\int_schema_player_national_performance.sql,create procedure,1
+\int_schema_player_national_performance.sql,date,1
+\int_schema_player_national_performance.sql,delete,3
+\int_schema_player_national_performance.sql,end,1
+\int_schema_player_national_performance.sql,from,7
+\int_schema_player_national_performance.sql,in,1
+\int_schema_player_national_performance.sql,insert,1
+\int_schema_player_national_performance.sql,integer,3
+\int_schema_player_national_performance.sql,into,1
+\int_schema_player_national_performance.sql,is null,1
+\int_schema_player_national_performance.sql,language,1
+\int_schema_player_national_performance.sql,matches,2
+\int_schema_player_national_performance.sql,order by,1
+\int_schema_player_national_performance.sql,over,1
+\int_schema_player_national_performance.sql,partition by,1
+\int_schema_player_national_performance.sql,primary key,1
+\int_schema_player_national_performance.sql,replace,1
+\int_schema_player_national_performance.sql,row_number,1
+\int_schema_player_national_performance.sql,select,4
+\int_schema_player_national_performance.sql,text,2
+\int_schema_player_national_performance.sql,truncate,1
+\int_schema_player_national_performance.sql,where,4
+\int_schema_player_national_performance.sql,with,1
+\int_schema_player_national_performance.sql,*,1
+\int_schema_player_national_performance.sql,>,3
+\int_schema_player_performances.sql,as,1
+\int_schema_player_performances.sql,begin,1
+\int_schema_player_performances.sql,call,1
+\int_schema_player_performances.sql,create table,1
+\int_schema_player_performances.sql,create procedure,1
+\int_schema_player_performances.sql,delete,1
+\int_schema_player_performances.sql,end,1
+\int_schema_player_performances.sql,from,3
+\int_schema_player_performances.sql,insert,1
+\int_schema_player_performances.sql,integer,16
+\int_schema_player_performances.sql,into,1
+\int_schema_player_performances.sql,is not null,1
+\int_schema_player_performances.sql,is null,1
+\int_schema_player_performances.sql,language,1
+\int_schema_player_performances.sql,primary key,1
+\int_schema_player_performances.sql,select,2
+\int_schema_player_performances.sql,text,4
+\int_schema_player_performances.sql,where,2
+\int_schema_player_performances.sql,*,1
+\int_schema_player_profile.sql,=,2
+\int_schema_player_profile.sql,as,5
+\int_schema_player_profile.sql,begin,1
+\int_schema_player_profile.sql,call,1
+\int_schema_player_profile.sql,case,3
+\int_schema_player_profile.sql,create or replace procedure,1
+\int_schema_player_profile.sql,create table,1
+\int_schema_player_profile.sql,current_date,1
+\int_schema_player_profile.sql,date,4
+\int_schema_player_profile.sql,else,3
+\int_schema_player_profile.sql,end,4
+\int_schema_player_profile.sql,extract,4
+\int_schema_player_profile.sql,false,1
+\int_schema_player_profile.sql,from,5
+\int_schema_player_profile.sql,insert,1
+\int_schema_player_profile.sql,integer,4
+\int_schema_player_profile.sql,into,1
+\int_schema_player_profile.sql,is not null,2
+\int_schema_player_profile.sql,language,1
+\int_schema_player_profile.sql,null,1
+\int_schema_player_profile.sql,primary key,1
+\int_schema_player_profile.sql,select,1
+\int_schema_player_profile.sql,serial,1
+\int_schema_player_profile.sql,text,7
+\int_schema_player_profile.sql,then,3
+\int_schema_player_profile.sql,to_date,2
+\int_schema_player_profile.sql,true,1
+\int_schema_player_profile.sql,when,3
+\int_schema_player_profile.sql,where,1
+\int_schema_player_profile.sql,year,4
+\int_schema_player_profile.sql,-,2
+\int_schema_team_competition_seasons.sql,as,1
+\int_schema_team_competition_seasons.sql,begin,1
+\int_schema_team_competition_seasons.sql,call,1
+\int_schema_team_competition_seasons.sql,count,2
+\int_schema_team_competition_seasons.sql,create table,1
+\int_schema_team_competition_seasons.sql,create procedure,1
+\int_schema_team_competition_seasons.sql,desc,1
+\int_schema_team_competition_seasons.sql,end,1
+\int_schema_team_competition_seasons.sql,from,6
+\int_schema_team_competition_seasons.sql,group by,1
+\int_schema_team_competition_seasons.sql,insert,2
+\int_schema_team_competition_seasons.sql,integer,4
+\int_schema_team_competition_seasons.sql,into,2
+\int_schema_team_competition_seasons.sql,language,1
+\int_schema_team_competition_seasons.sql,order by,1
+\int_schema_team_competition_seasons.sql,primary key,1
+\int_schema_team_competition_seasons.sql,select,6
+\int_schema_team_competition_seasons.sql,text,3
+\int_schema_team_competition_seasons.sql,*,3
+\raw_schema_children_team.sql,create table,1
+\raw_schema_children_team.sql,integer,2
+\raw_schema_children_team.sql,select,1
+\raw_schema_children_team.sql,text,2
+\raw_schema_children_team.sql,timestamp,1
+\raw_schema_player_injuries.sql,create table,1
+\raw_schema_player_injuries.sql,date,2
+\raw_schema_player_injuries.sql,float,1
+\raw_schema_player_injuries.sql,from,1
+\raw_schema_player_injuries.sql,integer,1
+\raw_schema_player_injuries.sql,select,2
+\raw_schema_player_injuries.sql,serial,1
+\raw_schema_player_injuries.sql,text,2
+\raw_schema_player_injuries.sql,*,1
+\raw_schema_player_market_value.sql,create table,1
+\raw_schema_player_market_value.sql,date,1
+\raw_schema_player_market_value.sql,float,1
+\raw_schema_player_market_value.sql,from,1
+\raw_schema_player_market_value.sql,integer,1
+\raw_schema_player_market_value.sql,select,2
+\raw_schema_player_market_value.sql,value,1
+\raw_schema_player_market_value.sql,*,1
+\raw_schema_player_national_performance.sql,create table,1
+\raw_schema_player_national_performance.sql,date,1
+\raw_schema_player_national_performance.sql,drop table,1
+\raw_schema_player_national_performance.sql,from,1
+\raw_schema_player_national_performance.sql,integer,3
+\raw_schema_player_national_performance.sql,matches,1
+\raw_schema_player_national_performance.sql,select,2
+\raw_schema_player_national_performance.sql,text,2
+\raw_schema_player_national_performance.sql,*,1
+\raw_schema_player_performance.sql,create table,1
+\raw_schema_player_performance.sql,float,2
+\raw_schema_player_performance.sql,from,1
+\raw_schema_player_performance.sql,integer,14
+\raw_schema_player_performance.sql,select,2
+\raw_schema_player_performance.sql,text,4
+\raw_schema_player_performance.sql,*,1
+\raw_schema_player_profile.sql,create table,1
+\raw_schema_player_profile.sql,date,5
+\raw_schema_player_profile.sql,float,1
+\raw_schema_player_profile.sql,integer,4
+\raw_schema_player_profile.sql,position,1
+\raw_schema_player_profile.sql,select,1
+\raw_schema_player_profile.sql,text,24
+\raw_schema_player_teammates_played_with.sql,create table,1
+\raw_schema_player_teammates_played_with.sql,current_date,1
+\raw_schema_player_teammates_played_with.sql,date,1
+\raw_schema_player_teammates_played_with.sql,default,1
+\raw_schema_player_teammates_played_with.sql,float,3
+\raw_schema_player_teammates_played_with.sql,from,1
+\raw_schema_player_teammates_played_with.sql,integer,2
+\raw_schema_player_teammates_played_with.sql,select,2
+\raw_schema_player_teammates_played_with.sql,text,1
+\raw_schema_player_teammates_played_with.sql,*,1
+\raw_schema_team_competitions_seasons.sql,create table,1
+\raw_schema_team_competitions_seasons.sql,from,1
+\raw_schema_team_competitions_seasons.sql,integer,1
+\raw_schema_team_competitions_seasons.sql,select,2
+\raw_schema_team_competitions_seasons.sql,text,5
+\raw_schema_team_competitions_seasons.sql,timestamp,1
+\raw_schema_team_competitions_seasons.sql,*,1
+\raw_schema_team_details.sql,create table,1
+\raw_schema_team_details.sql,from,1
+\raw_schema_team_details.sql,primary key,1
+\raw_schema_team_details.sql,select,2
+\raw_schema_team_details.sql,serial,1
+\raw_schema_team_details.sql,text,10
+\raw_schema_team_details.sql,timestamp,1
+\raw_schema_team_details.sql,*,1
+\raw_schema_transfer_history.sql,create table,1
+\raw_schema_transfer_history.sql,date,1
+\raw_schema_transfer_history.sql,from,1
+\raw_schema_transfer_history.sql,integer,5
+\raw_schema_transfer_history.sql,select,2
+\raw_schema_transfer_history.sql,text,4
+\raw_schema_transfer_history.sql,*,1

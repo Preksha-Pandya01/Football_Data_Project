@@ -1,0 +1,8 @@
+[18-09-2025 11:34:54] A: Session id: 8e972a6d-f16b-43d1-88fb-f358c8b5ebb8
+[18-09-2025 11:34:54] A: Execution id: 5145514a-f465-445b-be2e-7b8f4a0b24a4
+[18-09-2025 11:34:54] a: Assessment started.
+[18-09-2025 11:34:54] a: Starting analyzers
+[18-09-2025 11:34:55] B: An exception ocurred while analizing: \storage.
+ The process cannot access the file 'C:\Users\preksha.pandya\OneDrive - Inferenz Tech Private Limited\Football_Project\storage' because it is being used by another process.
+[18-09-2025 11:34:55] a: All analyzers finished.
+[18-09-2025 11:34:55] a: Assessment ended.

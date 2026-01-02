@@ -1,0 +1,100 @@
+PartitionKey,FileType,Category,CodeUnit,SourceDatabase,SourceSchema,CodeUnitName,CodeUnitId,FileName,LineNumber,LinesOfCode,EWI Count,FDM Count,PRF Count,HighestEWISeverity,UDFsUsed,EWI,FDM,PRF,ConversionStatus,LoCConversionPercentage,Deployment Order,SourceLanguage
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,VIEW,CREATE VIEW,N/A,final_schema,vw_top_assists_per_season,final_schema.vw_top_assists_per_season,final_schema_vw_top_assists_per_season.sql,6,19,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,final_schema_vw_top_assists_per_season.sql,1,3,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,final_schema_vw_injury_burden_per_team_per_season.sql,32,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,VIEW,CREATE VIEW,N/A,final_schema,vw_injury_burden_per_team_per_season,final_schema.vw_injury_burden_per_team_per_season,final_schema_vw_injury_burden_per_team_per_season.sql,19,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,final_schema_vw_injury_burden_per_team_per_season.sql,1,16,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,VIEW,CREATE VIEW,N/A,final_schema,vw_highest_transfer_per_season,final_schema.vw_highest_transfer_per_season,final_schema_vw_highest_transfer_per_season.sql,1,13,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,CALL,N/A,N/A,N/A,N/A,int_schema_player_profile.sql,74,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,PROCEDURE,CREATE PROCEDURE,N/A,intermediate_schema,int_player_profile_proc,intermediate_schema.int_player_profile_proc,int_schema_player_profile.sql,38,32,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,intermediate_schema,int_player_profile,intermediate_schema.int_player_profile,int_schema_player_profile.sql,1,31,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,VIEW,CREATE VIEW,N/A,final_schema,vw_player_market_value_growth_rate,final_schema.vw_player_market_value_growth_rate,final_schema_player_market_value_growth_rate.sql,1,19,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_performance.sql,36,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_performance.sql,27,8,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,player_performance,raw_schema.player_performance,raw_schema_player_performance.sql,1,22,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,VIEW,CREATE VIEW,N/A,final_schema,vw_top_scorers_per_season,final_schema.vw_top_scorers_per_season,final_schema_vw_top_goalers_per_season_per_competition.sql,1,22,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,CALL,N/A,N/A,N/A,N/A,int_schema_children_team.sql,35,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,PROCEDURE,CREATE PROCEDURE,N/A,intermediate_Schema,int_children_team_proc,intermediate_Schema.int_children_team_proc,int_schema_children_team.sql,21,13,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,TRUNCATE TABLE,N/A,N/A,N/A,N/A,int_schema_children_team.sql,19,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_schema_children_team.sql,17,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,INSERT,N/A,N/A,N/A,N/A,int_schema_children_team.sql,8,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,intermediate_schema,int_children_team,intermediate_schema.int_children_team,int_schema_children_team.sql,1,6,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_injuries.sql,20,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_injuries.sql,11,8,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,player_injuries,raw_schema.player_injuries,raw_schema_player_injuries.sql,1,9,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,CALL,N/A,N/A,N/A,N/A,int_schema_int_player_injuries.sql,71,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,PROCEDURE,CREATE PROCEDURE,N/A,intermediate_Schema,int_player_injuries_proc,intermediate_Schema.int_player_injuries_proc,int_schema_int_player_injuries.sql,43,23,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,TRUNCATE TABLE,N/A,N/A,N/A,N/A,int_schema_int_player_injuries.sql,42,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_schema_int_player_injuries.sql,34,5,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,DELETE,N/A,N/A,N/A,N/A,int_schema_int_player_injuries.sql,31,2,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,DELETE,N/A,N/A,N/A,N/A,int_schema_int_player_injuries.sql,28,2,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,DELETE,N/A,N/A,N/A,N/A,int_schema_int_player_injuries.sql,25,2,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,INSERT,N/A,N/A,N/A,N/A,int_schema_int_player_injuries.sql,15,9,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,intermediate_schema,int_player_injuries,intermediate_schema.int_player_injuries,int_schema_int_player_injuries.sql,2,11,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_teammates_played_with.sql,26,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_teammates_played_with.sql,15,9,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,Partial,11.11%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,player_teammates_played_with,raw_schema.player_teammates_played_with,raw_schema_player_teammates_played_with.sql,2,10,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,SCHEMA,CREATE SCHEMA,N/A,N/A,final_schema,final_schema,create_final_schema.sql,1,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,connecting_rds_to_s3.sql,12,1,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,connecting_rds_to_s3.sql,3,5,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_national_performance.sql,21,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_national_performance.sql,12,8,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,DROP TABLE,N/A,N/A,N/A,N/A,raw_schema_player_national_performance.sql,10,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,player_national_performance,raw_schema.player_national_performance,raw_schema_player_national_performance.sql,1,8,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_team_details.sql,25,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_team_details.sql,16,8,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,team_details,raw_schema.team_details,raw_schema_team_details.sql,1,14,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,DROP TABLE,N/A,N/A,N/A,N/A,demo.sql,16,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,player_market_values,raw_schema.player_market_values,demo.sql,10,5,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,demo.sql,1,8,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,SCHEMA,CREATE SCHEMA,N/A,N/A,raw_schema,raw_schema,create_raw_schema.sql,1,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,SCHEMA,CREATE SCHEMA,N/A,N/A,intermediate_schema,intermediate_schema,create_intermediate_schema.sql,1,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,CALL,N/A,N/A,N/A,N/A,int_schema_team_competition_seasons.sql,50,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,PROCEDURE,CREATE PROCEDURE,N/A,intermediate_schema,int_team_competitions_seasons_proc,intermediate_schema.int_team_competitions_seasons_proc,int_schema_team_competition_seasons.sql,33,15,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_schema_team_competition_seasons.sql,31,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,INSERT,N/A,N/A,N/A,N/A,int_schema_team_competition_seasons.sql,22,8,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_schema_team_competition_seasons.sql,16,3,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,intermediate_schema,int_team_competitions_seasons,intermediate_schema.int_team_competitions_seasons,int_schema_team_competition_seasons.sql,8,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_schema_team_competition_seasons.sql,3,4,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_schema_team_competition_seasons.sql,1,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_schema_player_performances.sql,64,28,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,CALL,N/A,N/A,N/A,N/A,int_schema_player_performances.sql,61,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,PROCEDURE,CREATE PROCEDURE,N/A,intermediate_Schema,int_player_performance_overall_proc,intermediate_Schema.int_player_performance_overall_proc,int_schema_player_performances.sql,26,32,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,intermediate_schema,int_player_performance_overall,intermediate_schema.int_player_performance_overall,int_schema_player_performances.sql,1,23,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_profile.sql,38,8,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,player_profile,raw_schema.player_profile,raw_schema_player_profile.sql,1,36,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_team_competitions_seasons.sql,21,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_team_competitions_seasons.sql,12,8,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,team_competitions_seasons,raw_schema.team_competitions_seasons,raw_schema_team_competitions_seasons.sql,1,9,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,VIEW,CREATE VIEW,N/A,final_schema,vw_injury_type_trends,final_schema.vw_injury_type_trends,final_schema_vw_injury_type_trends.sql,1,9,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_transfer_history.sql,23,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_transfer_history.sql,14,8,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,transfer_history,raw_schema.transfer_history,raw_schema_transfer_history.sql,1,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_player_market_value.sql,28,2,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,CALL,N/A,N/A,N/A,N/A,int_player_market_value.sql,25,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,PROCEDURE,CREATE PROCEDURE,N/A,intermediate_schema,int_player_market_value_proc,intermediate_schema.int_player_market_value_proc,int_player_market_value.sql,8,15,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,intermediate_schema,int_player_market_value,intermediate_schema.int_player_market_value,int_player_market_value.sql,1,5,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_children_team.sql,10,8,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,NotSupported,0%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,children_team,raw_schema.children_team,raw_schema_children_team.sql,1,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_schema_player_national_performance.sql,78,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,CALL,N/A,N/A,N/A,N/A,int_schema_player_national_performance.sql,76,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,PROCEDURE,CREATE PROCEDURE,N/A,intermediate_Schema,int_player_national_performance_proc,intermediate_Schema.int_player_national_performance_proc,int_schema_player_national_performance.sql,40,28,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,TRUNCATE TABLE,N/A,N/A,N/A,N/A,int_schema_player_national_performance.sql,11,24,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,intermediate_schema,int_player_national_performance,intermediate_schema.int_player_national_performance,int_schema_player_national_performance.sql,1,9,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_schema_int_player_teammates_played_with.sql,56,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,CALL,N/A,N/A,N/A,N/A,int_schema_int_player_teammates_played_with.sql,52,2,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,PROCEDURE,CREATE PROCEDURE,N/A,intermediate_schema,int_player_teammates_played_with_proc,intermediate_schema.int_player_teammates_played_with_proc,int_schema_int_player_teammates_played_with.sql,34,17,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,TRUNCATE TABLE,N/A,N/A,N/A,N/A,int_schema_int_player_teammates_played_with.sql,32,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,int_schema_int_player_teammates_played_with.sql,27,3,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,INSERT,N/A,N/A,N/A,N/A,int_schema_int_player_teammates_played_with.sql,16,10,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,intermediate_schema,int_player_teammates_played_with,intermediate_schema.int_player_teammates_played_with,int_schema_int_player_teammates_played_with.sql,1,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_market_value.sql,19,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DQL,SELECT,N/A,N/A,N/A,N/A,raw_schema_player_market_value.sql,7,9,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,Partial,11.11%,1*,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,raw_schema,player_market_value,raw_schema.player_market_value,raw_schema_player_market_value.sql,1,5,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DATABASE,CREATE DATABASE,N/A,N/A,"""Football_DB""","""Football_DB""",Create_Football_db.sql,1,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,CALL,N/A,N/A,N/A,N/A,int_schema_int_transfer_history.sql,56,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,PROCEDURE,CREATE PROCEDURE,N/A,intermediate_Schema,int_transfer_history_proc,intermediate_Schema.int_transfer_history_proc,int_schema_int_transfer_history.sql,36,19,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,INSERT,N/A,N/A,N/A,N/A,int_schema_int_transfer_history.sql,22,13,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,DML,TRUNCATE TABLE,N/A,N/A,N/A,N/A,int_schema_int_transfer_history.sql,18,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,DROP TABLE,N/A,N/A,N/A,N/A,int_schema_int_transfer_history.sql,16,1,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1,PostgreSQL
+8e972a6d-f16b-43d1-88fb-f358c8b5ebb8,SQL,TABLE,CREATE TABLE,N/A,intermediate_schema,int_transfer_history,intermediate_schema.int_transfer_history,int_schema_int_transfer_history.sql,2,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0,PostgreSQL

@@ -1,0 +1,135 @@
+{
+    "name": "Football_Data_Project",
+    "guid": "MIGRATION_32a637c4_9a50_4ce3_a8d4_7e2140f7adca",
+    "inputPath": ".",
+    "outputPath": "..\\Football_Project_output",
+    "projectInputPath": "",
+    "repointingPath": "",
+    "replatformingPath": "",
+    "connectionMappingsPath": "..\\..\\..\\PREKSH~1.PAN\\AppData\\Local\\Temp\\snowconvert-connection-mappings\\MIGRATION_32a637c4_9a50_4ce3_a8d4_7e2140f7adca\\connection-mappings.csv",
+    "migrationContextPath": "",
+    "platform": "SnowConvert-PostgreSQL",
+    "accesscode": "8aacad3d-3e76-4dac-b6ac-4b8c453f7878",
+    "assessmentAccesscode": "",
+    "isDemo": false,
+    "steps": [
+        {
+            "name": "Project Creation",
+            "status": 1,
+            "active": false,
+            "disabled": false,
+            "steps": []
+        },
+        {
+            "name": "Extraction",
+            "status": 1,
+            "active": false,
+            "disabled": false,
+            "steps": []
+        },
+        {
+            "name": "Conversion",
+            "status": 0,
+            "active": true,
+            "disabled": false,
+            "steps": [
+                {
+                    "name": "Execution",
+                    "status": 1,
+                    "disabled": false,
+                    "active": false,
+                    "expandOptions": {
+                        "isExpandable": true,
+                        "expand": true
+                    }
+                },
+                {
+                    "name": "Results",
+                    "status": 0,
+                    "disabled": false,
+                    "active": true,
+                    "expandOptions": {
+                        "isExpandable": true,
+                        "expand": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Deployment",
+            "status": 0,
+            "active": false,
+            "disabled": true,
+            "steps": []
+        },
+        {
+            "name": "Data Migration",
+            "status": 0,
+            "active": false,
+            "disabled": true,
+            "steps": [
+                {
+                    "name": "Execution",
+                    "status": 0,
+                    "disabled": true,
+                    "active": false
+                },
+                {
+                    "name": "Results",
+                    "status": 0,
+                    "disabled": true,
+                    "active": true
+                }
+            ]
+        },
+        {
+            "name": "Data Validation",
+            "status": 0,
+            "active": false,
+            "disabled": true,
+            "preview": true,
+            "steps": [
+                {
+                    "name": "Execution",
+                    "status": 0,
+                    "disabled": true,
+                    "active": false
+                },
+                {
+                    "name": "Results",
+                    "status": 0,
+                    "disabled": true,
+                    "active": true
+                }
+            ]
+        }
+    ],
+    "conversionSettings": {
+        "sourcePlatform": "postgresql",
+        "conversionOptions": {
+            "encoding": "65001",
+            "targetLag": "TargetLag",
+            "targetLagNumber": "1",
+            "targetLagTime": "days",
+            "warehouse": "UPDATE_DUMMY_WAREHOUSE",
+            "conversionRateMode": "LoC"
+        }
+    },
+    "internalProcessInputPath": "",
+    "internalAssessmentOutputPath": "",
+    "internalConversionOutputPath": "..\\Football_Project_output\\Conversion-9-18-2025T11 33",
+    "customerData": {
+        "company": "Inferenz",
+        "email": "preksha.pandya@inferenz.ai"
+    },
+    "conversionProgress": {
+        "isSuccessful": true
+    },
+    "customInputPaths": {
+        "assessment": "",
+        "conversion": ""
+    },
+    "projectRootPath": "",
+    "isEnd2End": false,
+    "isRepointing": false
+}

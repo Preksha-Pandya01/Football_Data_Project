@@ -1,0 +1,44 @@
+[18-09-2025 11:34:07] A: Session id: 8e972a6d-f16b-43d1-88fb-f358c8b5ebb8
+[18-09-2025 11:34:07] A: Code Processor information: Name :SnowConvert, Version: 1.17.6.0
+[18-09-2025 11:34:07] a: Starting to install license with key that ends with: 7878
+[18-09-2025 11:34:07] a: License installation result: Success
+[18-09-2025 11:34:07] a: Starting to validate parameters
+[18-09-2025 11:34:07] a: Parameters to validate: 
+	Execution mode: Conversion
+	Encoding: 65001
+	TargetLag: 1 days
+	Warehouse: UPDATE_DUMMY_WAREHOUSE
+	ConversionRateMode: LoC
+	ProjectName: Football_Data_Project
+	ConnectionMappingsFilePath: C:\Users\PREKSH~1.PAN\AppData\Local\Temp\snowconvert-connection-mappings\MIGRATION_32a637c4_9a50_4ce3_a8d4_7e2140f7adca\connection-mappings.csv
+[18-09-2025 11:34:08] a: Validation of parameters: Success
+[18-09-2025 11:34:08] A: Getting code descriptor
+[18-09-2025 11:34:09] A: Code descriptor information
+	Units: 867
+	Units type: LOC
+	All file bytes: 29350
+	All found extensions: .sql
+[18-09-2025 11:34:09] A: Calculating fingerprint
+[18-09-2025 11:34:09] A: Fingerprint information Fingerprint(size=29350,projects=1)
+[18-09-2025 11:34:09] a: Starting to validate active license
+[18-09-2025 11:34:09] a: Active license validation: Success
+[18-09-2025 11:34:09] A: License information
+	License key ends with: 7878
+	Start date: 2025-08-12
+	Expiration date: 2025-11-12
+	Execution mode: Conversion
+	Unit type: Lines of Code
+	Created by: preksha.pandya@inferenz.ai
+	Remaining activations: -3
+	Products: SnowConvert
+[18-09-2025 11:34:10] A: Getting license
+[18-09-2025 11:34:10] A: License information
+	Status: Successful
+[18-09-2025 11:34:12] A: Starting the execution of the controller
+[18-09-2025 11:34:12] A: Executing the worker: SnowConvert
+[18-09-2025 11:34:54] A: Finished executing the worker: SnowConvert
+[18-09-2025 11:34:54] A: Executing the worker: GenericScanner
+[18-09-2025 11:34:55] A: Finished executing the worker: GenericScanner
+[18-09-2025 11:34:56] a: Controller execution ended
+[18-09-2025 11:34:56] a: Starting to upload the Assessment results
+[18-09-2025 11:34:59] a: A assessment upload

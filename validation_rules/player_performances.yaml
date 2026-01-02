@@ -1,0 +1,107 @@
+table: player_performances
+file_format: csv
+delimiter: ","
+
+columns:
+  - name: player_id
+    type: integer
+    required: true
+    cross_check:
+      right_table: player_profiles
+      right_key: player_id
+
+  - name: season_name
+    type: string
+    required: true
+
+  - name: competition_id
+    type: string
+    required: true
+
+  - name: competition_name
+    type: string
+    required: true
+
+  - name: goals
+    type: integer
+    required: true
+    min: 0
+
+  - name: minutes_played
+    type: integer
+    required: true
+    min: 0
+
+  - name: team_id
+    type: integer
+    required: true
+    cross_check:
+      right_table: team_competition_seasons
+      right_key: club_id
+
+  - name: team_name
+    type: string
+    required: true
+  
+  - name: nb_in_group
+    type: integer
+    required: true
+    min: 0
+
+  - name: nb_on_pitch
+    type: integer
+    required: true
+    min: 0
+
+  - name: assists
+    type: integer
+    required: true
+    min: 0
+
+  - name: own_goals
+    type: integer
+    required: true
+    min: 0
+
+  - name: subed_in
+    type: integer
+    required: true
+    min: 0
+
+  - name: subed_out
+    type: integer
+    required: true
+    min: 0
+
+  - name: yellow_cards
+    type: integer
+    required: true
+    min: 0
+
+  - name: second_yellow_cards
+    type: integer
+    required: true
+    min: 0
+
+  - name: direct_red_cards
+    type: integer
+    required: true
+    min: 0
+
+  - name: penalty_goals
+    type: integer
+    required: true
+    min: 0
+
+  - name: goals_conceded
+    type: integer
+    required: true
+    min: 0
+
+  - name: clean_sheets
+    type: integer
+    required: true
+    min: 0
+
+    
+  

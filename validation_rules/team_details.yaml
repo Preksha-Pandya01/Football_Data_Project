@@ -1,0 +1,30 @@
+table: team_details
+file_format: csv
+delimiter: ","
+
+columns:
+  - name: club_id
+    type: integer
+    required: true
+    unique: true
+    
+  - name: club_name
+    type: string
+    required: true
+    regex: "^(?![\\\\.,|!@#$%^&*()_+=\\[\\]{}:;\"'<>/?-])(.*?)(?<![\\\\.,|!@#$%^&*_+=\\[\\]{}:;\"'<>/?-])$"
+  
+  - name: country_name
+    type: string
+    required: true
+
+  - name: season_id
+    type: integer
+    required: true
+
+  - name: competition_id
+    type: string
+    required: true
+
+  - name: competition_name
+    type: string
+    required: true
